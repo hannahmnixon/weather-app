@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #5b6275;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+h2 {
+  position: relative;
+  left: 60px;
+  padding-left: 40px;
+  font-size: 48px;
+}
+
+.search {
+  padding: 20px;
+  font-size: 12px;
+}
+
+.rnin {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.temp {
+  font-weight: 400;
+  font-size: 150px;
+  padding-left: 150px;
+}
+
+.metric {
+  font-size: 11px;
+  padding: 5px;
+  width: 45px;
+  position: relative;
+  top: 70px;
+}
+
+.day {
+  font-weight: 400;
+}
+
+ul {
+  position: relative;
+  bottom: 250px;
+  left: 650px;
+  list-style: none;
+}
+
+button {
+  color: #8ec351;
+  border: solid 1px;
+  border-color: #797d86;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  transition: ease-in-out 8ms;
+  cursor: pointer;
+  width: 250px;
+  padding: 10px;
+}
+button:hover {
+  color: white;
+  background-color: #1ab2a8;
+}

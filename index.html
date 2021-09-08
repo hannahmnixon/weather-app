@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Plus Week 2 Homework</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link href="src/index.js" rel="stylesheet" type="jss" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-8 rnin">Right now in...</div>
+        <div class="col-4 search">
+          <input
+            type="search"
+            autocomplete="off"
+            autofocus="on"
+            id="search-input"
+            placeholder="see another city"
+          />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-8"><h1>San Francisco</h1></div>
+        <div class="col-4"><span class="day">Today's Date & Time</span></div>
+      </div>
+    </div>
+
+    <h2>🌤</h2>
+    <span class="temp">21°</span>
+    <button class="metric">view in °F</button>
+    <div style="float: right"></div>
+
+    <ul>
+      <li><button class="weekly">This week's forecast</button></li>
+      <li><button class="hour">Hourly view</button></li>
+      <li><button class="precip">Precipitation</button></li>
+      <li><button class="wind">Wind</button></li>
+      <li><button class="humid">Humidity</button></li>
+    </ul>
+  </body>
+</html>
